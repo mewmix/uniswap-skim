@@ -4,7 +4,12 @@ const events = require('../logs/events.js');
 
 const web3 = new Web3('ws://localhost:8546');
 
-const factoryAddress = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f';
+const factoryAddress = '0xef45d134b73241eda7703fa787148d9c9f4950b0'; // spiritswap
+//const factoryAddress = '0x152eE697f2E276fA89E96742e9bB9aB1F2E61bE3'; //spooky
+//const factoryAddress = '0x991152411A7B5A14A8CF0cDDE8439435328070dF'; // hyperjump
+// spooky: '0x152eE697f2E276fA89E96742e9bB9aB1F2E61bE3',
+// spirit: '0xef45d134b73241eda7703fa787148d9c9f4950b0',
+// hyperjump: '0x991152411A7B5A14A8CF0cDDE8439435328070dF', 
 
 const getPastLogs = async (address, fromBlock, toBlock) => {
 	try {
