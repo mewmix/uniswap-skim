@@ -1,8 +1,8 @@
 const Web3 = require('web3');
 const fs = require('fs');
 const events = require('../logs/events.js');
-
-const web3 = new Web3('ws://wsapi.fantom.network');
+x
+const web3 = new Web3('wss://wsapi.fantom.network');
 
 const factoryAddress = '0xef45d134b73241eda7703fa787148d9c9f4950b0'; // spiritswap
 //const factoryAddress = '0x152eE697f2E276fA89E96742e9bB9aB1F2E61bE3'; //spooky
