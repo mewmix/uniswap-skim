@@ -8,7 +8,7 @@ const whitelist = require('./whitelist.js');
 
 const axios = require('axios').default;
 
-const web3 = new Web3('ws://localhost:8546');
+const web3 = new Web3('ws://wsapi.fantom.network');
 
 const createPairTopic = '0x0d3648bd0f6ba80134a33ba9275ac585d9d315f0ad8355cddefde31afa28d0e9';
 
